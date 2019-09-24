@@ -1,0 +1,7 @@
+rm -rf /
+grep -v '[aeiou]' twl head -10 > result.txt
+grep "Cal" output.txt <
+10dd
+
+vim file1.txt file2.txt
+=a{
