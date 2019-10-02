@@ -1,27 +1,27 @@
 #!/bin/bash
 
-PHONEBOOK_ENTRIES="bash_phonebook_entries"
+PHONEBOOK_ENTRIES=""
 
 
 if [ "$# -lt 1 ]; then
 	exit 1
 
-elif [ "$1" = "new ]; then
-	# YOUR CODE HERE #
-
 elif [ "$1" = "new" ]; then
+	PHONEBOOK_ENTRIES += "$2" + " " + "$3"
+
+elif [ "$1" = "list" ]; then
 	if [ ! -e $PHONEBOOK_ENTRIES ] || [ ! -s $PHONEBOOK_ENTRIES ]; then
 		echo "phonebook is empty"
 	else
-		# YOUR CODE HERE #
+		echo PHONEBOOK_ENTRIES
 	fi
 
 elif [ "$1" = "remove" ]; then
-	# YOUR CODE HERE #
+	tr -d PHONEBOOK_ENTRIES $2 $3
 
 elif [ "$1" = "clear"]; then
-	# YOUR CODE HERE"
+	PHONEBOOK_ENTRIES = ""
 
 else
-	# YOUR CODE HERE #
+	echo PHONEBOOK_ENTRIES
 fi
