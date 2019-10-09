@@ -1,0 +1,72 @@
+Q2.21 Point
+Go into the b01 directory. Make sure you're in there by running pwd (Present working directory). What does pwd give you?
+
+/home/k/kd/kdutta/b01
+Q2.31 Point
+There's a hidden file in the b01 directory. What is the secret?
+
+hunter2
+Q2.41 Point
+A malicious user made its way into my computer and created a message split across all the files in nonsense/. What does it say? (Hint: xargs and ls will be helpful here.) What command did you use?
+
+ls -1 $nonsense | xargs du
+Q2.51 Point
+Go ahead and delete everything in nonsense/ with one command. How did you do it?
+
+rm -v ~/b01/nonsense/*
+Q2.61 Point
+How did you find the URL? Two lines above the URL is a secret solution. What is that solution? Hint for this one: "Context Line Control"
+
+I found the URL by searching for "https", using "grep "https" big_data.txt"
+The solution is more coffee.
+Q2.71 Point
+Which command did you use to run the script?
+
+chmod 700 a_script
+./a_script
+Q2.81 Point
+Finally, there's an empty file called hello_world in the directory. Write your name in it! How did you do so?
+
+cat > hello_world
+Q3 General Questions
+6 Points
+Feel free to use Google and work in a terminal (where applicable) to verify your conjectures.
+
+Q3.11 Point
+What differentiates Linux/OSX from operating systems like Windows?
+
+Linux is open source and users can access the source code and improve it in their system, while Windows is a licensed OS that is not open source.
+Q3.21 Point
+What are some differences between the command line and normal (graphical) usage of an OS?
+
+The command line allows users to interact with the system with commands. The graphical usage allows users to interact with the system using the OS' pre-configured graphical elements, like folders.
+Q3.31 Point
+What is the root directory in Linux filesystems?
+
+The directory that contains all other directories and files on the system and which is designated by a forward slash
+Q3.41 Point
+I want ls to do the following for me: Give me extra information such as file permissions, owner, group, size, and late date edited. In addition, I want to be able to see the size and have the files ordered by last date edited, with the oldest files on top. How would I do this?
+
+ls -l
+ls -Sr -Ut
+Q3.51 Point
+Instead of showing the first 10 lines of the file big_data.txt, I want head to show the first 4. How would I do that?
+
+head -4 big_data.txt
+Q3.61 Point
+What's the difference between cat foo > out.txt and cat foo >> out.txt?
+
+cat > overwrites the file
+cat >> appends to the file
+Q4 Culture Questions
+3 Points
+Q4.11 Point
+Briefly, what is the difference between permissive and copyleft licenses?
+
+Copyleft allows users to use software under the same license as the original software. Permissive license does not restrict users to this.
+Q4.21 Point
+Give an example of a permissive license.
+
+MIT License
+Q4.31 Point
+Give an example of:Microsoft Office
