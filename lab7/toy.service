@@ -1,0 +1,11 @@
+[Unit]
+Description="manages web server"
+Requires=nginx,build-essential,make,python-virtualenv
+After=build-essential
+
+[Install]
+WantedBy=multi user.target
+
+[Service]
+ExecStart=run
+User=kdutta
