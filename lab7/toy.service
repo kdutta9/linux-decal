@@ -9,3 +9,5 @@ WantedBy=multi user.target
 [Service]
 ExecStart=run
 User=kdutta
+Restart=always
+RestartSec=10
