@@ -1,0 +1,19 @@
+total 76
+-rw-rw-r-- 1 kdutta kdutta    6 Nov  3 00:53 file1.txt
+-rw-rw-r-- 1 kdutta kdutta   85 Oct 22 18:33 file1.txt.gpg
+-rw-rw-r-- 1 kdutta kdutta    5 Nov  3 00:53 file2.txt
+-rw-rw-r-- 1 kdutta kdutta  521 Oct 22 18:33 file2.txt.gpg
+-rw-rw-r-- 1 kdutta kdutta  693 Nov  3 00:50 file2.txt.gpg.gpg
+-r-----r-- 1 nobody root     17 Nov  3 00:54 file3.txt
+-rw-rw-r-- 1 kdutta kdutta   44 Nov  3 00:58 file3md5sum.txt
+-rw-rw-r-- 1 kdutta kdutta   58 Nov  3 00:59 file3sha1md5sum.txt
+-rw-r--r-- 1 nobody root     15 Nov  3 00:54 file4.txt
+-rwxr-xr-x 1 kdutta kdutta 8640 Oct 22 18:33 file5
+-rw-rw-r-- 1 kdutta kdutta   12 Nov  3 01:08 file5.txt
+-rwxr-xr-x 1 kdutta root     21 Nov  3 00:54 file6.txt
+-r-------- 1 kdutta root     21 Nov  3 00:54 file7.txt
+-rwxrwxrwx 1 nobody root     20 Nov  3 00:54 file8.txt
+-rwxrwxrwx 1 kdutta root     19 Nov  3 00:54 file9.txt
+-rw-rw-r-- 1 kdutta kdutta 3498 Oct 22 18:33 lab8privkey
+-rw-rw-r-- 1 kdutta kdutta    0 Nov  3 01:20 permissions.txt
+-rwxrwxr-x 1 kdutta kdutta 4007 Oct 22 18:33 setup.sh
