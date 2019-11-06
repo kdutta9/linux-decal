@@ -4,7 +4,8 @@ int main(int argc, char** argv) {
     char* x = "Correct output";
     puts(x);
 
-    /* TODO: add new feature */
+    char* feature = "Here's my new feature!";
+    puts(feature);
 
     return 0;
 }
