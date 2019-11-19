@@ -1,0 +1,4 @@
+CONTAINER ID        IMAGE               COMMAND              CREATED              STATUS              PORTS               NAMES
+e8edb107a2f6        httpd               "httpd-foreground"   About a minute ago   Up About a minute   80/tcp              determined_hofstadter
+57d6c468ab6c        httpd               "httpd-foreground"   8 minutes ago        Up 8 minutes        80/tcp              pedantic_almeida
+8667a5332f16        httpd               "httpd-foreground"   13 minutes ago       Up 13 minutes       80/tcp              elated_burnell
