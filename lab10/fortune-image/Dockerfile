@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-RUN sudo apt-get fortune && \
-	sudo apt-get fortunes-min
+RUN apt-get install fortune
+RUN apt-get install fortunes-min
 	
 CMD ["/usr/games/fortune"]
